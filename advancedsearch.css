@@ -1,0 +1,233 @@
+body{
+    margin-left: 0%;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: #5F6368;
+}
+#img1{
+    width:74px;
+    height: 24px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+}
+ul li ul.dropdown{
+    position:absolute;
+    z-index:1;
+    display: none;
+}
+ul li:hover ul.dropdown {
+    display: block;
+    background-color: #444747;
+    margin-top: 2px;
+    padding: 5px;
+}
+#icon{
+    font-size: 17px;
+}
+#head{
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 4px 4px 8px;
+}
+.head1{
+    display: flex;
+    padding: 5px 14px 0px 5px;
+}
+.head2{
+    padding: 8px;
+}
+#advancedsearch{
+    color: #D93025;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    height:22.4px;
+    width:157.89px;
+    margin:30px 40px
+}
+#maindiv1{
+    margin-top: 37px;
+    margin-left: 42px;
+    display:grid;
+    grid-template-columns: 182.4px,589.3px,374.8px;
+    grid-template-rows: 42px,42px,42px,42px,42px,42px,;
+}
+#maindiv2{
+    margin-top: 37px;
+    margin-left: 42px;
+    display:grid;
+    grid-template-columns: 182.4px,589.3px,374.8px;
+    grid-template-rows: 42px,42px,42px,42px,42px,42px,42px,42px,42px,42px;
+}
+span{
+    color: #333333;
+    font: 16px arial;
+}
+.labels{
+    font:13px arial;
+    color:#222222;
+
+}
+.labels2{
+    height: 42px;
+    width:182.4px;
+}
+.labels1{
+    height:30px;
+}
+.inputs{
+    height:41px;
+    width:589.3px;
+    font:16px,arial;
+    color:#000000;
+    display: flex;
+    flex-shrink: 2;
+}
+input{
+    padding:1px 8px;
+    height:27.6px;
+    width:571.6px;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+}
+select{
+    padding:1px 8px;
+    height:30px;
+    width:590px;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 11px;
+    background-color: #F8f8f8;
+    font-family: arial;
+    color: #444444;
+}
+select:hover{
+    border:1.5px solid #c0c0c0a7;
+    box-shadow: 1px 1px #c0c0c0a7;
+}
+select:focus{
+    background-color: #f5f5f5;
+}
+.description{
+    height:30px;
+    width:369.8px;
+    margin:0px 0px 8px 30px;
+    padding: 0px 0px 0px 5px;
+    font:11px arial;
+    color:#555555;
+    display: flex;
+    align-items: center;
+}
+.xxx{
+    display: flex;
+}
+#last{
+    margin-left: 42px;
+    height:114px;
+}
+#last1{
+    height:42px;
+    font:16px;
+    color:#333333;
+    font-family: Arial, sans-serif;
+}
+
+.anchor{
+    color:#1122cc;
+    font:13px arial;
+}
+#button1{
+    border:none;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    color: white;
+    background-color: #3F83F1;
+    height: 30px;min-width: 120px;
+}
+#button1:hover{
+    border: 1px solid #3079ed;
+    background-image: -webkit-linear-gradient(top, #4d90fe, #4787ed);
+}
+
+#footeri{
+    background-color:#f1f1f195;
+    height: 46.8px;
+    bottom: 0px;
+    width: 100%;
+    display:flex;
+    margin: 0px;
+}
+footer{
+    background-color:#f1f1f195;
+    padding-left: 29px;
+    margin: 0px;
+    bottom: 0px;
+}
+.footer1:hover{
+    text-decoration: underline;
+}
+#footert1A{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px;
+}
+.footer1{
+    padding: 15px;
+    display: inline-block;
+    font:14px arial;
+}
+input:focus{
+    outline-style: none;
+    box-shadow: none;
+    border: none;
+}
+.text1:focus{
+    outline-style:solid;
+    border-color:  #97B8EF;
+    outline-color: #97B8EF;
+    box-shadow: -1.25px -1.25px #97B8EF;
+}
+@media (max-width:1090px){
+    .description{
+        display: none;
+    }
+}
+@media (max-width:1070px){
+    #maindiv1{
+        display: flexbox;
+        flex-shrink: 2;
+        position: relative;
+        }
+    #maindiv2{
+        display: flexbox;
+        position: relative;
+        flex-shrink: 2;
+        }
+    .inputs{
+            display: flex;
+            flex-shrink: 2;
+            width:50%
+        }
+    .text1{
+            display: flex;
+            flex-shrink: 2;
+        }
+    input{
+            display: flex;
+            flex-shrink: 2;
+        }
+}
